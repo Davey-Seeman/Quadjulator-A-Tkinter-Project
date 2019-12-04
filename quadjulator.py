@@ -61,7 +61,7 @@ def math():
 
 
             except ValueError: #This activates if the previous math makes you sqaure root a negative number which is impossible 
-                l13=Label(aframe2,text="\n\n The are no\n solutions", fg="black")
+                l13=Label(aframe2,text="\n\n There are no\n solutions", fg="black")
                 l13.pack(side=TOP)
                 
             #writing steps using quadratic substacting formula
